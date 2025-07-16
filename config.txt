@@ -1,0 +1,42 @@
+# Product Counts
+bread_categories = 3
+sandwich_types   = 2
+cake_flavors     = 4
+sweet_flavors    = 3
+sweet_patisseries= 2
+savory_patisseries=2
+
+# Staff
+chefs            = 8
+bakers           = 5
+sellers          = 3
+supply_chain     = 2
+
+# Ingredient Ranges (min:max)
+wheat            = 100:250
+yeast            = 50:150
+butter           = 30:60
+milk             = 40:80
+sugar            = 70:120
+salt             = 70:120
+sweet_items      = 50:90
+cheese           = 40:80
+salami           = 40:80
+
+# Prices
+price_bread              = 2
+price_sandwich           = 4
+price_cake               = 3
+price_sweet              = 2
+price_sweet_patisserie   = 4
+price_savory_patisserie  = 4
+
+# Thresholds
+max_frustrated_customers = 10
+max_complaints           = 10
+max_missing_requests     = 100
+max_profit               = 100
+max_time_minutes         = 10
+
+# Customer arrival probability (0.0–1.0)
+arrival_prob             = 0.12
